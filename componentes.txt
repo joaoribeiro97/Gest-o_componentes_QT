@@ -1,0 +1,3 @@
+1;Resistencia;100;1k;100;
+2;Condensador;200;1uF;100;
+3;Circuito integrado;100;74LS32;100;

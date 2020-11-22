@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cod_cores</class>
+ <widget class="QDialog" name="cod_cores">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Codigo Cores Resistencias</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/imgs/resources/logo.png</normaloff>:/imgs/resources/logo.png</iconset>
+  </property>
+  <widget class="QComboBox" name="Tolerance">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Castanho (1%)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vermelho (2%)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dourado (5%)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Multiplier">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>Preto(1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Castanho(10)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vermelho(100)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Laranja(1000)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amarelo(10000)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Verde(100000)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Azul(1000000)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Violeta(10000000)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="ValueResistor">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>400</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>0.0k ohm</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="FirstRing">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>Preto(0)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Castanho(1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vermelho(2)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Laranja(3)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amarelo(4)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Verde(5)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Azul(6)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Violeta(7)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cinza(8)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Branco(9)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lb_Multi">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Multiplicador</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_tolerance">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tolerância</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Titulo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Escolher Cores</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_anel_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Primeiro Anel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_anel_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Segundo Anel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="SecondRing">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>Preto(0)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Castanho(1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vermelho(2)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Laranja(3)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Amarelo(4)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Verde(5)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Azul(6)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Violeta(7)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cinza(8)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Branco(9)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="bt_Calculate">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>360</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calcular</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,14 @@
+2;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;25;1;
+3;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;15;1;
+4;admin;admin;02/01/2020;02/01/2020;Condensador;1uF;20;2;
+5;admin;admin;02/01/2020;02/01/2020;Condensador;1uF;80;2;
+6;13823;Ricardo Costa;02/01/2020;02/01/2020;Resistencia;1k;10;1;
+7;13823;Ricardo Costa;02/01/2020;02/01/2020;Resistencia;1k;10;1;
+8;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;10;1;
+9;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;9;1;
+10;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;1;1;
+11;13823;Ricardo Costa;02/01/2020;02/01/2020;Resistencia;1k;10;1;
+12;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;1;1;
+13;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;8;1;
+14;admin;admin;02/01/2020;02/01/2020;Resistencia;1k;1;1;
+15;admin;admin;02/01/2020;02/01/2020;Circuito integrado;74LS32;100;3;

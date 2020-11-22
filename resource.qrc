@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>resources/logo.png</file>
+        <file>resources/voltar.ico</file>
+        <file>resources/LogoIPCA.png</file>
+        <file>resources/componentes.jpg</file>
+        <file>resources/add.png</file>
+        <file>resources/components.png</file>
+        <file>resources/remove.png</file>
+        <file>resources/check.png</file>
+        <file>resources/calendario.png</file>
+        <file>resources/delete.png</file>
+        <file>resources/login.png</file>
+        <file>resources/exe.png</file>
+        <file>resources/plot.png</file>
+        <file>resources/configuration.png</file>
+        <file>resources/home.png</file>
+        <file>resources/edit.png</file>
+        <file>resources/save.png</file>
+        <file>resources/add_comp.png</file>
+        <file>resources/rem_comp.png</file>
+        <file>resources/user.png</file>
+        <file>resources/add_user.png</file>
+        <file>resources/delete_user.png</file>
+        <file>resources/resistor.png</file>
+    </qresource>
+</RCC>

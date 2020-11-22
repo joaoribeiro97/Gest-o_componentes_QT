@@ -1,0 +1,7 @@
+Resistencia
+Condensador
+Bobine
+Circuito integrado
+Transistor
+LED
+Switch
