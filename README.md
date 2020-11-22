@@ -1,1 +1,1 @@
-# Gest-o_componentes_QT
+# Gestao_componentes_QT
